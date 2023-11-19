@@ -1,0 +1,5 @@
+/* Estilos para el logo */
+img {
+    max-width: 70px;   /* Tamaño máximo */
+    margin-bottom: 15px;   /* Margen abajo del logo */
+  }

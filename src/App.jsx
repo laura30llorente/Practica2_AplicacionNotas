@@ -6,6 +6,8 @@ import React from 'react';
 
 // Importamos el componente NoteList desde el archivo NoteList.jsx
 import NoteList from './components/NoteList.jsx'
+// Importamos el componente Logo desde el archivo Logo.jsx
+import Logo from './components/Logo.jsx'; 
 
 function App() {
   // Renderizamos el componente principal de la aplicación
@@ -16,6 +18,7 @@ function App() {
         {/* Encabezado */}
         <div className="row mb-4">    
           <div className="col text-center">
+            <Logo />   {/* Agregamos el componente Logo */}
             <h1> APLICACIÓN DE NOTAS </h1>
           </div>
         </div>
