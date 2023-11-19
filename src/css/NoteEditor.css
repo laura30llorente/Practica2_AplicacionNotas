@@ -1,0 +1,65 @@
+/* Estilo para el formulario de edición de notas */
+.note-editor-form {
+    background-color: rgb(200, 170, 224);   /* Fondo */
+    padding: 20px;   /* Espacio interno alrededor del formulario */
+    border: 1px solid #ccc;   /* Borde delgado con sombra para destacar el formulario */
+    border-radius: 5px;   /* Bordes redondeados */
+    box-sizing: border-box;   /* Aseguramos que el padding y el borde se incluyan en el tamaño total del elemento */
+    overflow: auto;   /* Proporcionamos una barra de desplazamiento si el contenido es demasiado grande para el contenedor */
+    margin: 0 auto;   /* Centramos el formulario horizontalmente en la pantalla */
+    margin-bottom: 30px;   /* Margen en la parte inferior para separarlo del contenido debajo */
+}
+
+/* Estilo para el campo de título */
+.note-editor-title {
+    width: 100%;   /* Ocupamos todo el ancho disponible del contenedor */
+    padding: 10px;   /* Espacio interno alrededor del campo de título */
+    margin-bottom: 15px;   /* Margen en la parte inferior para separar el campo de título del contenido */
+    border: 1px solid #ccc;   /* Borde delgado para definir el campo de título */
+    border-radius: 5px;   /* Bordes redondeados */
+    box-sizing: border-box;   /* Aseguramos que el padding y el borde se incluyan en el tamaño total del elemento */
+}
+
+/* Estilo para el campo de contenido */
+.note-editor-content {
+    width: 100%;   /* Ocupamos todo el ancho disponible del contenedor */
+    flex-grow: 1;   /* Permite que el campo de contenido crezca verticalmente para ocupar el espacio restante */
+    padding: 10px;   /* Espacio interno alrededor del campo de contenido */
+    margin-bottom: 15px;   /* Margen en la parte inferior para separar el campo de contenido del siguiente */
+    border: 1px solid #ccc;   /* Borde delgado para definir el campo de contenido */
+    border-radius: 5px;   /* Bordes redondeados */
+    box-sizing: border-box;   /* Aseguramos que el padding y el borde se incluyan en el tamaño total del elemento */
+}
+
+/* Estilo para el botón de guardar nota */
+.note-editor-button {
+    background-color: #692285;   /* Color de fondo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);   /* Sombra para resaltar el botón */
+    color: #fff;   /* Texto en color blanco */
+    border: none;   /* Sin borde */
+    padding: 10px 20px;   /* Espacio interno alrededor del botón */
+    border-radius: 5px;   /* Bordes redondeados */
+    cursor: pointer;   /* Indicamos que el botón es interactivo */
+    width: 100%;   /* Ocupa todo el ancho disponible del contenedor */
+    font-size: 22px;  /* Tamaño del texto del botón */
+}
+
+/* Estilo para el botón de guardar nota al pasar el raton sobre él */
+.note-editor-button:hover {
+    background-color: #400552;   /* Color de fondo más oscuro */
+}
+  
+/* Estilos para la etiqueta del selector de color */
+.note-color-picker-label {
+    margin-right: 10px;   /* Margen a la derecha para separar la etiqueta del selector de color */
+    font-size: 22px;   /* Tamaño del texto de la etiqueta */
+}
+
+/* Estilos para el selector de color */
+.note-color-picker {
+    border: 1px solid #ccc;   /* Borde delgado para definir el área del selector de color */
+    border-radius: 5px;   /* Bordes redondeados */
+    padding: 5px;   /* Espacio interno alrededor del selector de color */
+    width: 80px;   /* Ancho para el selector de color */
+    height: 40px;  /* Altura para el selector de color */
+}

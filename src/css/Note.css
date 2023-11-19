@@ -1,0 +1,76 @@
+/* Fuente para las fechas de creación y modificación */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap');
+
+/* Estilos para una nota completada */
+.note-container.completed {
+    text-decoration: line-through; /* Línea tachada para notas completadas */
+    opacity: 0.5; /* Opacidad reducida para notas completadas */
+}
+
+/* Estilos generales para la nota */
+.note-container {
+    border: 1px solid #ddd;   /* Borde de la nota */
+    margin: 10px;   /* Márgenes externos */
+    padding: 20px;   /* Relleno interno */
+    border-radius: 10px;   /* Esquinas redondeadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);   /* Sombra para profundidad */
+    transition: all 0.2s ease-in-out;   /* Transición suave para interacciones */
+}
+
+/* Efecto de escala al pasar el ratón sobre la nota */
+.note-container:hover {
+    transform: scale(1.02);
+}
+
+/* Estilos para el título de la nota */
+.note-title {
+    font-size: 25px;   /* Tamaño de fuente del título */
+    font-weight: bold;   /* Titulo en negrita */
+    margin-bottom: 5px;   /* Margen inferior del título */
+}
+
+/* Estilos para el contenido de la nota */
+.note-content {
+    font-size: 20px;   /* Tamaño de fuente del contenido */
+    line-height: 1.4;   /* Altura de línea del contenido */
+}
+
+/* Estilos para el botón de eliminar (rojo) */
+.btn-danger {
+    color: #fff;   /* Color del texto del botón */
+    border: none;   /* Sin borde */
+    padding: 5px 10px;   /* Relleno interno */
+    margin-top: 10px;   /* Margen superior */
+    cursor: pointer;   /* Cursor apuntador al pasar el ratón */
+    margin-right: 10px;   /* Margen derecho del botón */
+    transition: all 0.2s ease-in-out;   /* Transición para interacciones */
+    font-size: 20px;   /* Tamaño de fuente del botón */
+}
+
+/* Cambio de color al pasar el ratón sobre el botón de eliminar */
+.btn-danger:hover {
+    background-color: #8d131f; 
+}
+
+/* Estilos para el botón de editar (azul) */
+.btn-primary {
+    color: #fff;   /* Color del texto del botón */
+    border: none;   /* Sin borde */
+    padding: 5px 10px;   /* Relleno interno */
+    margin-top: 10px;   /* Margen superior */
+    cursor: pointer;   /* Cursor apuntador al pasar el ratón */
+    transition: all 0.2s ease-in-out;   /* Transición para interacciones */
+    font-size: 20px;   /* Tamaño de fuente del botón */
+}
+
+/* Cambio de color al pasar el ratón sobre el botón de editar */
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para las fechas de la nota */
+.note-dates {
+    font-size: 15px;   /* Tamaño de fuente para las fechas */
+    margin-top: 10px;   /* Margen superior para separación de fechas */
+    font-family: 'Orbitron', sans-serif;   /* Fuente para las fechas */
+}

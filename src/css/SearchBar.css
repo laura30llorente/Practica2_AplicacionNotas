@@ -1,0 +1,13 @@
+/* Contenedor principal del SearchBar */
+.search-bar-container {
+    display: flex;   /* Utilizamos el modelo de caja flexible para el diseño */
+    align-items: center;   /* Centramos los elementos a lo largo del eje vertical */
+}
+
+/* Estilo para el campo de entrada de búsqueda */
+.search-bar-input {
+    flex: 1;   /* El campo de entrada ocupará todo el espacio disponible en el contenedor flexible */
+    padding: 10px;   /* Relleno interno del campo de entrada */
+    border: 1px solid #ccc;   /* Borde del campo de entrada */
+    border-radius: 5px;   /* Esquinas redondeadas del campo de entrada */
+}

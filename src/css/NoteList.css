@@ -1,0 +1,44 @@
+/* Estilo para la lista de notas */
+.note-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* Centramos elementos horizontalmente */
+    justify-content: center;   /* Centramos elementos verticalmente */
+}
+
+/* Estilo para la sección de búsqueda */
+.search-section {
+    background-color: rgb(223, 154, 86);   /* Fondo naranja claro */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);   /* Sombra para profundidad */
+}
+
+/* Estilo para el mensaje de error de búsqueda */
+.search-error {
+    color: #ff1100;   /* Color rojo oscuro para resaltar el mensaje de error */
+    font-weight: bold;   /* Texto en negrita para mayor énfasis */
+    margin-top: 10px;
+    font-size: 20px;   /* Tamaño de fuente */
+}
+
+/* Estilo para la lista de notas filtradas */
+.filtered-notes {
+    margin-top: 20px;
+}
+
+/* Estilo para la sección de agregar y mostrar notas */
+.add-note-section {
+    background-color: #617081;   /* Fondo gris-azul oscuro */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);   /* Sombra para profundidad */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para los botones dentro de la sección de notas */
+.add-note-section button {
+    margin-top: 10px;   /* Espacio superior entre los botones y otros elementos */
+}
